@@ -1,0 +1,74 @@
+<div class='m-home'>
+        <header>
+            <ul>
+                 <li class="active" action-type="switch.tabs" data-tag="home"><i class="yo-ico">&#xe660;</i><b>北京市</b></li>
+                 <li><input type="text" placeholder="搜索店铺名字" /></li>
+                 <li class="yo-ico">&#xe617;</li>
+            </ul>
+        </header>
+        
+        <section spa-widget="scroll">
+            <div>
+                <div class="s-banner banner swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src=" /aihuangou/images/banner1.png"/></div>
+                        <div class="swiper-slide"><img src=" /aihuangou/images/banner2.png"/></div>
+                        <div class="swiper-slide"><img src=" /aihuangou/images/banner3.png"/></div>
+                    </div>
+                </div>
+                <nav>
+                    <ul>
+                        <li action-type="switch.tabs" data-tag="home"><i class="yo-ico">&#xe607;</i><b>美食广场</b></li>
+                        <li action-type="switch.tabs" data-tag="home"><i class="yo-ico">&#xe7c2;</i><b>折扣优惠</b></li>
+                        <li action-type="switch.tabs" data-tag="home"><i class="yo-ico">&#xe62c;</i><b>商场商圈</b></li>
+                        <li action-type="switch.tabs" data-tag="home"><i class="yo-ico">&#xe619;</i><b>休闲娱乐</b></li>
+                    </ul> 
+                    <ul>
+                        <li action-type=+"switch.tabs" data-tag="home"><i class="yo-ico">&#xe609;</i><b>酒店住宿</b></li>
+                        <li action-type="switch.tabs" data-tag="home"><i class="yo-ico">&#xe66f;</i><b>时尚丽人</b></li>
+                        <li action-type="switch.tabs" data-tag="home"><i class="yo-ico">&#xe60c;</i><b>购物天地</b></li>
+                        <li action-type="switch.tabs" data-tag="home"><i class="yo-ico">&#xe68d;</i><b>生活服务</b></li>
+                    </ul>           
+                </nav>
+                <div class="s-zbanner banner swiper-container" >
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src=" /aihuangou/images/zbanner1.png"/></div>
+                        <div class="swiper-slide"><img src=" /aihuangou/images/zbanner2.png"/></div>
+                    </div>
+                </div>
+                <div class="s-hot">
+                    <div class="s-hot-t"><i class="yo-ico">&#xe684;</i><b>热门0购</b><i class="yo-ico">&#xe664;</i></div>
+                  <ul class="swiper-container" id="swiper">
+                    <div class="swiper-wrapper">
+                       <li class="swiper-slide"><img src=" /aihuangou/images/hot1.png"/></li>
+                       <li class="swiper-slide"><img src=" /aihuangou/images/hot2.png"/></li>
+                       <li class="swiper-slide"><img src=" /aihuangou/images/hot1.png"/></li>
+                       <li class="swiper-slide"><img src=" /aihuangou/images/hot2.png"/></li>
+                       <li class="swiper-slide"><img src=" /aihuangou/images/hot1.png"/></li>
+                       <li class="swiper-slide"><img src=" /aihuangou/images/hot2.png"/></li>
+                       <li class="swiper-slide"><img src=" /aihuangou/images/hot1.png"/></li>
+                       <li class="swiper-slide"><img src=" /aihuangou/images/hot2.png"/></li>
+                       <li class="swiper-slide"><img src=" /aihuangou/images/hot1.png"/></li>
+                       <li class="swiper-slide"><img src=" /aihuangou/images/hot2.png"/></li>
+                   </div>
+                  </ul>
+                </div>
+                <div class="s-shopping">
+                  <div class="s-hot-t"><i class="yo-ico">&#xe67e;</i><b>购物中心</b><strong>全部</strong><i class="yo-ico">&#xe664;</i></div>
+                  <ul>
+                   <li><img src=" /aihuangou/images/shopping1.png"/><b>万达广场</b></li>
+                   <li><img src=" /aihuangou/images/shopping3.png"/><b>中华美食城</b></li>
+                   <li><img src=" /aihuangou/images/shopping1.png"/><b>摩登百货岗顶店</b></li>
+                  </ul>
+                </div>
+                <div class="generalize">
+                    <img src=" /aihuangou/images/generalize1.png"/>
+                    <img src=" /aihuangou/images/generalize2.png"/>                    
+                </div>
+                <div class="s-recommend">
+                  <div class="s-hot-t"><i class="yo-ico">&#xe67e;</i><b>人气推荐</b></div>
+                  <div></div>
+                </div>
+            </div>
+        </section>
+    </div>

@@ -1,0 +1,16 @@
+//补贴
+<div class='m-subsidy'>
+        <header>
+            <ul>
+                 <li class="active" action-type="switch.tabs" data-tag="home"><i class="yo-ico">&#xe660;</i><b>北京市</b></li>
+                 <li><input type="text" placeholder="搜索店铺名字" /></li>
+                 <li class="yo-ico">&#xe617;</li>
+            </ul>
+        </header>
+        
+        <section spa-widget="scroll">
+            <div>
+                <img src="/aihuangou/images/butei.jpg" />
+            </div>
+        </section>
+    </div>

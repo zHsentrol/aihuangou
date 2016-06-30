@@ -1,0 +1,19 @@
+//我的
+
+<div class='m-my'>
+    <header>
+        <ul>
+        	<li class="yo-ico">&#xe645;</li>
+            <li>个人中心</li>
+            <li></li>
+        </ul>
+    </header>
+    
+    <section spa-widget="scroll">
+       <div>
+    		<div class="my-banner">
+    			
+    		</div>
+       </div>
+    </section>
+</div>

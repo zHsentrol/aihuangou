@@ -1,0 +1,332 @@
+.m-index{
+    .l-container{
+        .m-home{
+            @include flexbox();
+            @include flex-direction(column) ;
+            height: 100%;
+            
+            > * {
+                width: 100%;
+            }
+            header{
+                height: .48rem;
+                background: #ff6801;
+                ul{
+                    @include flexbox();
+                    height: 100%;
+                    li{
+                        font-size: .12rem;
+                        height: 100%;
+                        text-align: center;
+                        line-height: .48rem;
+                        color: #FFFFFF;
+                        &:nth-child(1){
+                            
+                            width: .88rem;
+                            i{
+                                font-size: .2rem;
+                            }
+                            b{
+                                font-weight: 100;
+                                
+                            }
+                        }
+                        &:nth-child(2) {
+                          @include flex(1);
+                          width: 100%;
+                          @include flexbox();
+                          @include justify-content(center);
+                          @include align-items(center);
+                          input{
+                              color:#b1b1b1;
+                              width: 100%;
+                              padding-left: 0.06rem;
+                              @include border-radius(.03rem);
+                              height: .32rem;
+                             
+                              border: 0;
+                          }
+                          
+                        }
+                        &:nth-child(3){
+                            width: .54rem;
+                            font-size: .2rem;
+                        }
+                    }
+                }
+            }
+            
+            section{
+                @include flex(1);
+                width: 100%;
+                background: #f0f0f0;
+                overflow: hidden;
+                .s-banner{
+                    margin-bottom:.1rem ;
+                    height: 1.68rem;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                nav{
+                    margin-bottom:.1rem ;
+                    height: 1.6rem;
+                    background: #fff;
+                    ul {
+                          @include flexbox();
+                          @include box-sizing(border-box);
+                          width: 100%;
+                          height: 50%;
+                          li {
+                            @include flex(1);
+                            @include flexbox();
+                            @include flex-direction(column);
+                            @include align-items(center);
+                            @include justify-content(center);
+                            @include box-sizing(border-box);
+                            padding-top: .03rem;                            
+                            i, b {
+                              display: block;
+                            }
+                            i {
+                                color: #fff;
+                                width: .42rem;
+                                height: .42rem;
+                                font-size: .24rem;
+                                line-height: .42rem;
+                                text-align: center;
+                                @include border-radius(.5rem);                               
+                            }
+                            b {
+                              color: #000000;
+                              font-weight: normal;
+                              font-size: .12rem;
+                            }
+                            &:nth-child(1){
+                                i{
+                                    background: #feae01;
+                                }
+                            }
+                            &:nth-child(2){
+                                i{
+                                    background: #eb6876;
+                                }
+                            }
+                            &:nth-child(3){
+                                i{
+                                    background: #e49a53;
+                                }
+                            }
+                            &:nth-child(4){
+                                i{
+                                    background: #9427d8;
+                                }
+                            }
+                        }
+                        &:nth-child(2){
+                            li{
+                                &:nth-child(1){
+                                    i{
+                                        background: #4b88c1;
+                                    }
+                                }
+                                &:nth-child(2){
+                                    i{
+                                        background: #f516ad;
+                                    }
+                                }
+                                &:nth-child(3){
+                                    i{
+                                        background: #61cdfb;
+                                    }
+                                }
+                                &:nth-child(4){
+                                    i{
+                                        background: #03d2fe;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .s-zbanner{
+                    margin-bottom:.1rem ;
+                    height: 1.6rem;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .s-hot{
+                    margin-bottom:.1rem ;
+                    height: 2rem;
+                    background: #fff;
+                    .s-hot-t{
+                        height: .4rem;
+                        padding-left: .16rem;
+                        line-height: .4rem;
+                        @include box-sizing(border-box);
+                        @include flexbox();
+                        i{
+                            color: deepskyblue;
+                            &:nth-child(3){
+                                padding-right: .08rem;
+                            }
+                        }
+                        b{
+                            @include flex(1);
+                            font-weight: 100;
+                            color: #333;
+                            padding-left: .1rem;
+                        }
+                        
+                    }
+                    ul{
+                        height: 1.55rem;
+                        @include border(1px 0 0 0);
+                        margin-bottom:.05rem ;
+                        div{
+                            li{
+                                width: 1.48rem;
+                                @include border(0 0 0 1px);
+                                @include align-items(center);
+                                @include justify-content(center);
+                                @include box-sizing(border-box);
+                                &:nth-child(1){
+                                    @include border(0);
+                                
+                                }
+                                img{
+                                    height: 1.4rem;
+                                    width: 1.4rem;
+                                    margin: .04rem 0 0 .04rem;
+                                }
+                            }
+                        }
+                        
+                    }
+                }
+                .s-shopping{
+                    margin-bottom: .1rem;
+                    height: 1.9rem;
+                    background: #fff;
+                    @include box-sizing(border-box);
+                    @include flexbox();
+                    @include flex-direction(column) ;
+                    .s-hot-t{
+                        height: .4rem;
+                        padding-left: .14rem;
+                        line-height: .4rem;
+                        @include box-sizing(border-box);
+                        @include flexbox();
+                        i{
+                            width: .3rem;
+                            font-size: .2rem;
+                            color: deepskyblue;
+                            &:nth-child(4){
+                                width: .18rem;
+                                padding-right: .08rem;
+                            }
+                        }
+                        b{
+                            @include flex(1);
+                            font-weight: 100;
+                            color: #333;
+                        }
+                        strong{
+                            width: .36rem;
+                            font-weight: 100;
+                            color: #ccc;
+                            padding-right: .04rem;
+                        }
+                        
+                    }
+                    ul{
+                        height: 1.45rem;
+                        @include border(1px 0 0 0);
+                        @include flexbox();
+                        margin-bottom:.05rem ;
+                        li{
+                            @include flex(1);
+                            @include flexbox();
+                            @include flex-direction(column);
+                            @include align-items(center);
+                            @include justify-content(center);
+                            @include box-sizing(border-box);
+                            img{                                
+                                width: 90%;
+                            }
+                            b{
+                                font-weight: 100;
+                                font-size: .14rem;
+                                margin-top:.04rem ;
+                                width: 90%;
+                                line-height: .24rem;
+                            }
+                        }
+                    }  
+                }
+                .generalize{
+                    margin-bottom: .1rem;
+                    height: 1.5rem;
+                    @include flexbox();
+                    img{
+                        @include flex(1);
+                        color: #000000;
+                        width: 50%;
+                    }
+                }
+                .s-recommend{
+                    margin-bottom: .1rem;
+                    height: 1.9rem;
+                    background: #fff;
+                    @include box-sizing(border-box);
+                    @include flexbox();
+                    @include flex-direction(column) ;
+                    .s-hot-t{
+                        height: .4rem;
+                        padding-left: .14rem;
+                        line-height: .4rem;
+                        @include box-sizing(border-box);
+                        @include flexbox();
+                        i{
+                            width: .3rem;
+                            font-size: .2rem;
+                            color: #f66;
+                            &:nth-child(4){
+                                width: .18rem;
+                                padding-right: .08rem;
+                            }
+                        }
+                        b{
+                            @include flex(1);
+                            font-weight: 100;
+                            color: #333;
+                        }
+                        strong{
+                            width: .36rem;
+                            font-weight: 100;
+                            color: #ccc;
+                            padding-right: .04rem;
+                        }
+                        
+                    }
+                    ul{
+                        height: 1.45rem;
+                        @include border(1px 0 0 0);
+                        @include flexbox();
+                        @include flex-direction(column);
+                        margin-bottom:.05rem ;
+                        li{
+                            
+                        }
+                    }
+                }
+            }
+        }
+            
+    }
+    
+}
+    

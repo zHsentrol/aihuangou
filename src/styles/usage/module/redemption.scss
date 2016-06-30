@@ -1,0 +1,280 @@
+.m-index{
+    .l-container{
+        .m-redemption{
+            @include flexbox();
+            background: #f0f0f0;
+            @include flex-direction(column) ;
+            height: 100%;
+            
+            > * {
+                width: 100%;
+            }
+            header{
+                height: .48rem;
+                ul{
+                    height: .44rem;
+                    @include border(0 0 1px 0) ;
+                    @include flexbox();
+                    li{
+                        width: .7rem;
+                        font-size: .14rem;
+                        height: 100%;
+                        text-align: center;
+                        line-height: .44rem;
+                        color: #444;
+                        &:nth-child(2){
+                           @include flex(1);
+                           color: #000000;
+                           font-size:.18rem ;
+                        }
+                    }
+                }
+            }
+            section{
+                @include flex(1);
+                width: 100%;
+                background: #f0f0f0;
+                overflow: hidden;
+                .head {
+                    position: relative;
+                    text-align: center;
+                }
+                .foot {
+                    position: relative;
+                    text-align: center;
+                }
+                .s-banner{
+                    margin-bottom: .1rem;
+                    height: 1.7rem;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                nav{
+                    margin-bottom: .05rem;
+                    height: .75rem;
+                    background: #fff;
+                    div{
+                        ul {
+                          @include box-sizing(border-box);
+                          @include flexbox();
+                          width: 100%;
+                          height: 100%;
+                              li {
+                                @include flex(1);
+                                @include flexbox();
+                                @include flex-direction(column);
+                                @include align-items(center);
+                                @include justify-content(center);
+                                @include box-sizing(border-box);
+                                padding-top: .03rem;                            
+                                i, b {
+                                  display: block;
+                                }
+                                i {
+                                    color: #fff;
+                                    width: .42rem;
+                                    height: .42rem;
+                                    font-size: .24rem;
+                                    line-height: .42rem;
+                                    text-align: center;
+                                    @include border-radius(.5rem);                               
+                                }
+                                b {
+                                  color: #000000;
+                                  font-weight: normal;
+                                  font-size: .12rem;
+                                }
+                                &:nth-child(1){
+                                    i{
+                                        background: #feae01;
+                                    }
+                                }
+                                &:nth-child(2){
+                                    i{
+                                        background: #eb6876;
+                                    }
+                                }
+                                &:nth-child(3){
+                                    i{
+                                        background: #e49a53;
+                                    }
+                                }
+                                &:nth-child(4){
+                                    i{
+                                        background: #9427d8;
+                                    }
+                                }
+                                &:nth-child(5){
+                                    i{
+                                        background: #eb6876;
+                                    }
+                                }
+                            }
+                            &:nth-child(2){
+                                li{
+                                    &:nth-child(1){
+                                        i{
+                                            background: #4b88c1;
+                                        }
+                                    }
+                                    &:nth-child(2){
+                                        i{
+                                            background: #f516ad;
+                                        }
+                                    }
+                                    &:nth-child(3){
+                                        i{
+                                            background: #61cdfb;
+                                        }
+                                    }
+                                    &:nth-child(4){
+                                        i{
+                                            background: #03d2fe;
+                                        }
+                                    }
+                                    &:nth-child(5){
+                                        i{
+                                            background: #eb6876;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    
+                }
+                .r-inpour{
+                    height: .6rem;
+                    background: #fff;
+                    margin-bottom: .08rem;
+                    ul{
+                        @include flexbox();
+                        height: 100%;
+                        li{
+                            font-size: .16rem;
+                            height: 100%;
+                            text-align: center;
+                            line-height: .6rem;
+                            color: #2b2b2b;
+                            &:nth-child(1){
+                                width: 1.1rem!important;
+                                padding-left: .02rem;
+                                i{
+                                    padding-left: .12rem;
+                                    padding-right: .08rem;
+                                    font-size: .2rem;
+                                    color: #fb6608;
+                                }
+                                b{
+                                    font-weight: 100;
+                                    width: .8rem;
+                                    
+                                }
+                            }
+                            &:nth-child(2) {
+                                color: #f66;
+                                @include flex(1);
+                                @include flexbox();
+                                line-height: .6rem;
+                            }
+                            &:nth-child(3){
+                                padding-right:.2rem;
+                                width: 1.1rem;
+                                @include flexbox();
+                                @include justify-content(center);
+                                @include align-items(center);
+                                input{
+                                    font-size: .14rem;
+                                    background: #f66b06;
+                                    color:#fff;
+                                    width: 100%;
+                                    padding-left: 0.06rem;
+                                    @include border-radius(.03rem);
+                                    height: .4rem;
+                                    line-height: .4rem;
+                                    border: 0;
+                                }
+                            }
+                        }
+                    }
+                }
+                .s-zbanner{
+                    margin-bottom:.1rem ;
+                    height: .8rem;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .lucky{
+                    
+                    background: #fff;
+                    .lucky-t{
+                        @include flexbox();
+                        height: 100%;
+                        li{
+                            font-size: .16rem;
+                            height: 100%;
+                            text-align: center;
+                            line-height: .6rem;
+                            color: #2b2b2b;
+                            &:nth-child(1){
+                                width: 1.1rem!important;
+                                padding-left: .02rem;
+                                i{
+                                    padding-left: .12rem;
+                                    padding-right: .08rem;
+                                    font-size: .2rem;
+                                    color: #fb6608;
+                                }
+                                b{
+                                    font-weight: 100;
+                                    width: .8rem;
+                                    
+                                }
+                            }
+                            &:nth-child(2) {
+                                
+                                @include flex(1);
+                               
+                            }
+                            &:nth-child(3){
+                                padding-right:.2rem;
+                                width: .9rem;
+                               i{
+                                    
+                                    font-size: .2rem;
+                                    color: #fb6608;
+                                }
+                                b{
+                                    font-weight: 100;
+                                    
+                                }
+                            }
+                        }
+                    }
+                    .lucky-b{
+                        @include border(1px 0 0 0);
+                        padding-left: .1rem;
+                        background: #fff;
+                        li{
+                            height: .68rem;
+                            @include border(0 0 1px 0);
+                            img{
+                                height: 100%;
+                                width: 90%;
+                            }
+                        }
+                    }
+                }
+                
+            }
+            
+        }
+            
+    }
+    
+}
+    

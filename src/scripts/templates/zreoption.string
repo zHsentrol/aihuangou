@@ -1,0 +1,61 @@
+//0购
+<div class='m-redemption'>
+    <header>
+        <ul>
+        	<li></li>
+            <li>0购</li>
+            <li>全部分类</li>
+        </ul>
+    </header>
+    
+    <section spa-widget="scroll">
+        <div>
+            <div class="s-banner banner swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src=" /aihuangou/images/z-banner1.png"/></div>
+                    <div class="swiper-slide"><img src=" /aihuangou/images/z-banner2.png"/></div>
+                    <div class="swiper-slide"><img src=" /aihuangou/images/z-banner1.png"/></div>
+                </div>
+            </div>
+            <nav class="nav-swiper">
+            	<div class="swiper-wrapper">
+	                <ul class="swiper-slide">
+	                    <li action-type="switch.tabs" data-tag=""><i class="yo-ico">&#xe607;</i><b>美食广场</b></li>
+	                    <li action-type="switch.tabs" data-tag=""><i class="yo-ico">&#xe7c2;</i><b>折扣优惠</b></li>
+	                    <li action-type="switch.tabs" data-tag=""><i class="yo-ico">&#xe62c;</i><b>商场商圈</b></li>
+	                    <li action-type="switch.tabs" data-tag=""><i class="yo-ico">&#xe7c2;</i><b>折扣优惠</b></li>
+	                    <li action-type="switch.tabs" data-tag=""><i class="yo-ico">&#xe619;</i><b>休闲娱乐</b></li>
+	                </ul>
+	                <ul class="swiper-slide">
+	                    <li action-type=+"switch.tabs" data-tag=""><i class="yo-ico">&#xe609;</i><b>酒店住宿</b></li>
+	                    <li action-type="switch.tabs" data-tag=""><i class="yo-ico">&#xe66f;</i><b>时尚丽人</b></li>
+	                    <li action-type="switch.tabs" data-tag=""><i class="yo-ico">&#xe60c;</i><b>购物天地</b></li>
+	                    <li action-type="switch.tabs" data-tag=""><i class="yo-ico">&#xe7c2;</i><b>折扣优惠</b></li>
+	                    <li action-type="switch.tabs" data-tag=""><i class="yo-ico">&#xe68d;</i><b>生活服务</b></li>
+	                </ul>   
+                </div>    
+            </nav>
+            <div class="r-inpour">
+            	 <ul>
+	                 <li class="active" action-type="switch.tabs" data-tag="home"><i class="yo-ico">&#xe664;</i><b>我的金币</b></li>
+	                 
+	                 <li>0</li>
+	                 <li><input type="button" value="充值金币"  /></li>
+	            </ul>
+            </div>
+            <div class="lucky">
+            	<ul class="lucky-t">
+	                 <li class="active" action-type="switch.tabs" data-tag="home"><i class="yo-ico">&#xe60c;</i><b>幸运殿堂</b></li>
+	                 <li></li>
+	                 <li><b>查看更多</b><i class="yo-ico">&#xe617;</i></li>
+	            </ul>
+	            <ul class="lucky-b">
+	            	<li><img src="/aihuangou/images/lucky-t1.png"/><i class="yo-ico">&#xe617;</i></li>
+	            	<li><img src="/aihuangou/images/lucky-t2.png"/><i class="yo-ico">&#xe617;</i></li>
+	            	<li><img src="/aihuangou/images/lucky-t1.png"/><i class="yo-ico">&#xe617;</i></li>
+	            </ul>
+            </div>
+            
+        </div>
+    </section>
+</div>

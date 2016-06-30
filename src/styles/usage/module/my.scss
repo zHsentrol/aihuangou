@@ -1,0 +1,51 @@
+.m-index{
+    .l-container{
+        .m-my{
+            @include flexbox();
+            background: #f0f0f0;
+            @include flex-direction(column) ;
+            height: 100%;
+            
+            > * {
+                width: 100%;
+            }
+            header{
+                height: .48rem;
+                ul{
+                    height: .44rem;
+                    @include border(0 0 1px 0) ;
+                    @include flexbox();
+                    li{
+                        width: .7rem;
+                        font-size: .2rem;
+                        height: 100%;
+                        text-align: center;
+                        line-height: .44rem;
+                        color: #444;
+                        &:nth-child(2){
+                           @include flex(1);
+                           color: #000000;
+                           font-size:.18rem ;
+                        }
+                    }
+                }
+            }
+            section{
+                .my-banner{
+                    width: 100%;
+                    height: 1.8rem;
+                }
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+                
+            
+            
+        }
+            
+    }
+    
+}
+    

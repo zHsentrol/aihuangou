@@ -1,0 +1,14 @@
+<div class="m-index">
+  <div class="l-container">
+    
+  </div>
+  <footer>
+    <ul>
+      <li class="active" action-type="switch.tabs" data-tag="home"><i class="yo-ico">&#xe633;</i><b>消费</b></li>
+      <li action-type="switch.tabs" data-tag="redemption"><i class="yo-ico">&#xe647;</i><b>换购</b></li>
+      <li action-type="switch.tabs" data-tag="zreoption"><i class="yo-ico">&#xe62f;</i><b>0购</b></li>
+      <li action-type="switch.tabs" data-tag="subsidy"><i class="yo-ico">&#xe664;</i><b>补贴</b></li>
+      <li action-type="switch.tabs" data-tag="my" action-type="my"><i class="yo-ico">&#xe60a;</i><b>我的</b></li>
+    </ul>
+  </footer>
+</div>
